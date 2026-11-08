@@ -1,0 +1,12 @@
+### Alle Einträge abrufen
+GET http://localhost:3000/api/entries
+
+### Neuen Eintrag anlegen
+POST http://localhost:3000/api/entries
+Content-Type: application/json
+
+{
+  "term": "Wechselbrücke",
+  "definition": "Auswechselbarer Aufbau eines LKW",
+  "category": "Transport"
+}
